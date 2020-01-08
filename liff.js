@@ -7,18 +7,16 @@ window.onload = function(e) {
 function initializeApp(data) {
     document.getElementById('send').addEventListener('click', function() {
 
-        var msg = document.getElementById('uname').value,
-            var msg1 = document.getElementById('fdate').value,
-                var msg2 = document.getElementById('ldate').value
+        // var msg = document.getElementById('uname').value,
+        //     var msg1 = document.getElementById('fdate').value,
+        //         var msg2 = document.getElementById('ldate').value
 
 
 
         liff.sendMessages([{
 
             Type: 'text',
-            text: msg,
-            text: msg1,
-            text: msg2
+            text: "0000",
 
 
 
