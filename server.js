@@ -15,7 +15,7 @@ app.get('/', function(req, res) {
 
 
 });
-app.post('/liff', function(req, res) {
+app.get('/liff', function(req, res) {
 
     res.send("0000");
 });
